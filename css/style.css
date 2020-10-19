@@ -14,6 +14,9 @@
   }
   
   .title {
+      position: absolute;
+      top: -1px;
+      right: -1px;
       float: right;
       border: 1px solid black;
       margin-top: 0px;
@@ -45,14 +48,13 @@
   .col {
     border: 1px solid black;
     background-color: darkgray;
-    height: 250px;
-    margin-right: 15;
-    margin-left: 15;
-    padding-left: 15px;
-    padding-right: 0px;
+    height: 300px;
+    margin: 15px 15px;
+    padding: 45px 15px 15px 15px;
     font-family: Helvetica;
     color: black;
     text-overflow: clip;
+    position: relative;
   }
   /********** Medium devices and Large devices **********/
   @media (min-width: 992px){
