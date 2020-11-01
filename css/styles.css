@@ -1,0 +1,43 @@
+body {
+    font-size: 16px;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: aliceblue;
+}
+.navbar-brand {
+    margin-top: 15px;
+    font-size: 2em;
+}
+#nav-list {
+    margin: auto;
+}
+#nav-list a {
+    color: black;
+    text-align: center;
+}
+#nav-list a:hover {
+    background: #DEF;
+}
+#nav-list a span {
+    font-size: 1.5em;
+}
+.category {
+    height: 1000px;
+    margin: auto;
+    text-align: center;
+    background-color: #EEE;
+}
+.category h2 {
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+.category p {
+    margin: 10px 0px;
+    text-align: left;
+}
+#heading {
+    text-align: center;
+    margin-top: 80px;
+}
