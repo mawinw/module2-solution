@@ -1,5 +1,6 @@
 body {
     font-size: 16px;
+    paddiing-top: 70px;
 }
 
 /** HEADER **/
@@ -24,12 +25,11 @@ body {
     font-size: 1.5em;
 }
 .category {
-    height: 1000px;
+    height: 700px;
     margin: auto;
-    text-align: center;
     background-color: #EEE;
 }
-.category h2 {
+.category h3 {
     padding-top: 20px;
     margin-bottom: 30px;
 }
@@ -41,3 +41,8 @@ body {
     text-align: center;
     margin-top: 80px;
 }
+@media (max-width: 767px) {
+    body {
+      padding-top: 0px;
+    }
+  }
